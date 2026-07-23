@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-23T10:05:00Z",
+  "generated_at": "2026-07-23T10:20:00Z",
   "components": [
     {
       "id": "whisper-runtime",
@@ -51,7 +51,31 @@
       "dependencies": [
         "whisper-runtime"
       ]
+    },
+    {
+      "id": "supertonic-runtime",
+      "name": "Supertonic Runtime",
+      "description": "Supertonic and ONNX Runtime speech synthesis runtime.",
+      "version": "1.2.1",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/supertonic-runtime-1.2.1.zip",
+      "sha256": "90f6ff0b7248d4fd273cb2592c2a7d438a07f54ea9210061223afe85949a195d",
+      "size": 11987127,
+      "unpacked_size": 35975148,
+      "dependencies": []
+    },
+    {
+      "id": "supertonic-model",
+      "name": "Supertonic Model",
+      "description": "Supertonic 3 multilingual voice model and styles.",
+      "version": "3.0.0",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/supertonic-model-3.0.0.zip",
+      "sha256": "179d0569f8ee90e17db609fa93d42b58ecde7b2e859dcb7547f04b0012c7477b",
+      "size": 371365865,
+      "unpacked_size": 401276998,
+      "dependencies": [
+        "supertonic-runtime"
+      ]
     }
   ],
-  "signature": "MCZlDtVA+lYRmgCtE667BFU/0rlYU58cCT287QU73W394r6FS+DUxvhCybdOfhpMWz1+xyKmENDbxdA8IZg+Aw=="
+  "signature": "RaxAqoISwLJ7RODhCVSyG0Pf4tCClGW4lFDDi8lmACeqVVMDM6CVOvGfqWri+hDXIn96KlB7shpFEKtmsALECQ=="
 }
