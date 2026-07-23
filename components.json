@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-23T00:00:00Z",
+  "generated_at": "2026-07-23T10:05:00Z",
   "components": [
     {
       "id": "whisper-runtime",
@@ -25,7 +25,33 @@
       "dependencies": [
         "whisper-runtime"
       ]
+    },
+    {
+      "id": "whisper-base",
+      "name": "Whisper Base",
+      "description": "Lightweight Whisper model.",
+      "version": "1.0.0",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-base-1.0.0.zip",
+      "sha256": "a9abc297a00b5a7ad68bcdb7f212ec81a9cd6dec26e716f0cb3fea0e94adf886",
+      "size": 133321405,
+      "unpacked_size": 147886658,
+      "dependencies": [
+        "whisper-runtime"
+      ]
+    },
+    {
+      "id": "whisper-small",
+      "name": "Whisper Small",
+      "description": "Balanced speed and accuracy.",
+      "version": "1.0.0",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-small-1.0.0.zip",
+      "sha256": "a54cc4f0c29faf31e9d2b58e37cd5a91432930430f46cf011beb68d7bc9f47b6",
+      "size": 446440096,
+      "unpacked_size": 486216091,
+      "dependencies": [
+        "whisper-runtime"
+      ]
     }
   ],
-  "signature": "aFhcUJRqtWyhNiRyCLYQcE3hUvLU7rj29IwcZXdRZp91OrUmogX+ASaJya1CvNfn6/uD/4vi8oQb08/1QfJoCQ=="
+  "signature": "MCZlDtVA+lYRmgCtE667BFU/0rlYU58cCT287QU73W394r6FS+DUxvhCybdOfhpMWz1+xyKmENDbxdA8IZg+Aw=="
 }
