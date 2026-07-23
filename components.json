@@ -75,7 +75,76 @@
       "dependencies": [
         "supertonic-runtime"
       ]
+    },
+    {
+      "id": "omnivoice-runtime",
+      "name": "Voice Clone Runtime",
+      "description": "OmniVoice inference runtime and audio dependencies.",
+      "version": "0.1.6",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/omnivoice-runtime-0.1.6.zip",
+      "sha256": "952a94be54afc946dc1b4f78418a09d22acb1ddb845344c0b4efada4b2262154",
+      "size": 129093832,
+      "unpacked_size": 415612192,
+      "dependencies": [
+        "cuda-runtime"
+      ]
+    },
+    {
+      "id": "omnivoice-model",
+      "name": "Voice Clone Model",
+      "description": "OmniVoice voice cloning model checkpoint.",
+      "version": "1.0.0",
+      "sha256": "8533e4f5bc398792914ebcfd671f00dc493318ff08d2551887b25acbc0966ac1",
+      "size": 3267472612,
+      "unpacked_size": 3267470338,
+      "dependencies": [
+        "omnivoice-runtime"
+      ],
+      "parts": [
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/omnivoice-model-1.0.0.part01.zip",
+          "sha256": "ab62e878d85d4565b00271e0f7c92ddd48ca24e7ec077cede121fcb32dd6b585",
+          "size": 1610612736
+        },
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/omnivoice-model-1.0.0.part02.zip",
+          "sha256": "503399f5a23dd578b35b520813bd7aa62af1f8c2bd51c37b1f89b0a507b10ec0",
+          "size": 1610612736
+        },
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/omnivoice-model-1.0.0.part03.zip",
+          "sha256": "948f209f4b043822f1a8b2e08e7a99e6f826d8466fece53ce99a8535b122d076",
+          "size": 46247140
+        }
+      ]
+    },
+    {
+      "id": "cuda-runtime",
+      "name": "CUDA Runtime",
+      "description": "PyTorch 2.5.1 CUDA 12.4 runtime for Clone gi\u1ecdng.",
+      "version": "12.4-torch2.5.1",
+      "sha256": "cd92ad7bac24b8f9d0256df6246ca18b07514dea6cce8a151fe7dd5da2efc19b",
+      "size": 3775952719,
+      "unpacked_size": 3775613961,
+      "dependencies": [],
+      "parts": [
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.4-torch2.5.1.part01.zip",
+          "sha256": "9e0ed7f037871ad6de76b0e973ef3edb5a1590d4fadf6214ec6c0eac0475e575",
+          "size": 1610612736
+        },
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.4-torch2.5.1.part02.zip",
+          "sha256": "d368a02725cf28ac316fd6b720767759fed025b5f705ed9266b624c4038b8b61",
+          "size": 1610612736
+        },
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.4-torch2.5.1.part03.zip",
+          "sha256": "04054a0c1909115485c42b1290e77191c45ea100c7ef21f95961cdbaed3fc4a1",
+          "size": 554727247
+        }
+      ]
     }
   ],
-  "signature": "RaxAqoISwLJ7RODhCVSyG0Pf4tCClGW4lFDDi8lmACeqVVMDM6CVOvGfqWri+hDXIn96KlB7shpFEKtmsALECQ=="
+  "signature": "PXq6Yv7pMqZVxtoSpjmFwsz8sz7cE+Km6i91NHFO/jniSkdNNzEn+/nWfeNsUl6n2Bxr4O1ldFZFrYUI2FlCDg=="
 }
