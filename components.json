@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-07-23T00:00:00Z",
+  "components": [
+    {
+      "id": "whisper-runtime",
+      "name": "Whisper Runtime",
+      "description": "Faster-Whisper and CTranslate2 speech recognition runtime.",
+      "version": "1.1.0",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-runtime-1.1.0.zip",
+      "sha256": "69bb3ff8467006fa0b90f234eae2be6c737e77e806c89d3d3ecf9c6e02b869eb",
+      "size": 54916139,
+      "unpacked_size": 155267052,
+      "dependencies": []
+    },
+    {
+      "id": "whisper-tiny",
+      "name": "Whisper Tiny",
+      "description": "Smallest and fastest Whisper model for quick transcription.",
+      "version": "1.0.0",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-tiny-1.0.0.zip",
+      "sha256": "340da452b1d7e859234bd443a658f73dc60c63fe575c6cdd1c3b62d11d423223",
+      "size": 69908904,
+      "unpacked_size": 78207343,
+      "dependencies": [
+        "whisper-runtime"
+      ]
+    }
+  ],
+  "signature": "aFhcUJRqtWyhNiRyCLYQcE3hUvLU7rj29IwcZXdRZp91OrUmogX+ASaJya1CvNfn6/uD/4vi8oQb08/1QfJoCQ=="
+}
