@@ -1,0 +1,12 @@
+{
+  "version": "1.7.2",
+  "release_date": "2026-07-24",
+  "changelog": "Ph?t h?nh Core Installer v?i Model Manager v? ch? ?? c?p nh?t th? c?ng an to?n.",
+  "distribution_mode": "manual",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.2",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.2/AutoDubberStudio_Core_v1.7.2_Setup.exe",
+  "min_compatible": "1.7.2",
+  "sha256": "87e130e652486f37adbff81cc54f94f9aaa904e2a7eaadc9bb1c590c98b0bb12",
+  "installer_size": 114317541,
+  "signature": "hHhDQlo0R/Ya9uWerFF0JQjTj5aYBRvYHkRtWTwXge6BamrNR9yT/MuAaQB/JKXIDFHEJdVt08oRmAk0ubVsDw=="
+}
