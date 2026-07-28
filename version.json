@@ -1,12 +1,12 @@
 {
-  "version": "1.7.5",
+  "version": "1.7.6",
   "release_date": "2026-07-28",
-  "changelog": "Cap nhat trong app: hien tien trinh tai, kiem tra manifest Ed25519 va SHA-256, sau do tu dong dong app va mo bo cai.",
+  "changelog": "Cap nhat trong app: hien tien trinh tai, kiem tra manifest Ed25519 va SHA-256, sau do tu dong dong app va mo bo cai. Sua redirect tai GitHub Release.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.5",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.5/AutoDubberStudio_Core_v1.7.5_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.6",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.6/AutoDubberStudio_Core_v1.7.6_Setup.exe",
   "min_compatible": "1.7.2",
-  "sha256": "e897ad9624908b75883857d94cf673ea7bce5ed2743fd63d4bc4142db3f663b8",
-  "installer_size": 107749399,
-  "signature": "A8U8unqC3uXWHZIXhZb9XcglWyfkEre6tJlCXxnfVBGYaTEMw/lLY1G+92l2zJkBBYRLBlf4g/3ns6VrqKRnBw=="
+  "sha256": "5cda5964576ffcc192a9a71dfa4a01e000f74f2e439e7298e029dc3d9a018de9",
+  "installer_size": 107752688,
+  "signature": "n8DhL6wqmYcn0PydEY1Ha5yZ7MGkB5T06fTr7B0q4/xXZnhtFhm0ql071WI9spnHz4muUlYNC2MtK9PKUP2QBg=="
 }
