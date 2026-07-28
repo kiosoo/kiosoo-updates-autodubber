@@ -1,12 +1,12 @@
 {
-  "version": "1.7.4",
+  "version": "1.7.5",
   "release_date": "2026-07-28",
-  "changelog": "VieNeu-TTS v3 Turbo CPU/ONNX co the cai dat tu Model Manager; sua noi cau va loai bo cue [am nhac] cua phu de tu dong YouTube.",
-  "distribution_mode": "manual",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.4",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.4/AutoDubberStudio_Core_v1.7.4_Setup.exe",
+  "changelog": "Cap nhat trong app: hien tien trinh tai, kiem tra manifest Ed25519 va SHA-256, sau do tu dong dong app va mo bo cai.",
+  "distribution_mode": "verified_auto",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.5",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.5/AutoDubberStudio_Core_v1.7.5_Setup.exe",
   "min_compatible": "1.7.2",
-  "sha256": "31c7a1359b4e51f6f4750c12c53afe6de50e2d38513677555a78caa6908894d5",
-  "installer_size": 107746330,
-  "signature": "prFeXEFJFyd4tj44QgWK2NF9RBaGi1oeroYPb/H/ArhlnXxZMlSWJPGkplzqYMta8BL08D1PdhHl3BstPy1/Aw=="
+  "sha256": "e897ad9624908b75883857d94cf673ea7bce5ed2743fd63d4bc4142db3f663b8",
+  "installer_size": 107749399,
+  "signature": "A8U8unqC3uXWHZIXhZb9XcglWyfkEre6tJlCXxnfVBGYaTEMw/lLY1G+92l2zJkBBYRLBlf4g/3ns6VrqKRnBw=="
 }
