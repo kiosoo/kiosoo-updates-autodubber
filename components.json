@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-23T10:20:00Z",
+  "generated_at": "2026-07-28T09:00:00Z",
   "components": [
     {
       "id": "whisper-runtime",
@@ -121,7 +121,7 @@
     {
       "id": "cuda-runtime",
       "name": "CUDA Runtime",
-      "description": "PyTorch 2.5.1 CUDA 12.4 runtime for Clone gi\u1ecdng.",
+      "description": "PyTorch 2.5.1 CUDA 12.4 runtime for Clone giọng.",
       "version": "12.4-torch2.5.1",
       "sha256": "cd92ad7bac24b8f9d0256df6246ca18b07514dea6cce8a151fe7dd5da2efc19b",
       "size": 3775952719,
@@ -144,7 +144,18 @@
           "size": 554727247
         }
       ]
+    },
+    {
+      "id": "vieneu-runtime",
+      "name": "VieNeu-TTS Runtime",
+      "description": "VieNeu v3 Turbo CPU ONNX runtime. Includes SDK and native ONNX dependencies; excludes the optional Gradio web UI.",
+      "version": "3.2.3-onnx-cpu.1",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.7.4/Kiosoo_VieNeu_Runtime_v3.2.3-onnx-cpu.1.zip",
+      "sha256": "baf68c21be3275abf794b7a7fb29a34545d6e67049ec99fa17a8594312b3c4e1",
+      "size": 206721680,
+      "unpacked_size": 206123810,
+      "dependencies": []
     }
   ],
-  "signature": "PXq6Yv7pMqZVxtoSpjmFwsz8sz7cE+Km6i91NHFO/jniSkdNNzEn+/nWfeNsUl6n2Bxr4O1ldFZFrYUI2FlCDg=="
+  "signature": "tWvMeoQl+3yRJ0XGZTK7fvoEKThvfdB9L1WFmSiv5ij8S7tf0Hco9JU7eFtpobDEdGB0HCp7375GF33nqWyYAA=="
 }
