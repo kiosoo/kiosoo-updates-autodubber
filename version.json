@@ -1,12 +1,12 @@
 {
-  "version": "1.7.2",
-  "release_date": "2026-07-24",
-  "changelog": "Ph?t h?nh Core Installer v?i Model Manager v? ch? ?? c?p nh?t th? c?ng an to?n.",
+  "version": "1.7.4",
+  "release_date": "2026-07-28",
+  "changelog": "VieNeu-TTS v3 Turbo CPU/ONNX co the cai dat tu Model Manager; sua noi cau va loai bo cue [am nhac] cua phu de tu dong YouTube.",
   "distribution_mode": "manual",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.2",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.2/AutoDubberStudio_Core_v1.7.2_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.4",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.4/AutoDubberStudio_Core_v1.7.4_Setup.exe",
   "min_compatible": "1.7.2",
-  "sha256": "87e130e652486f37adbff81cc54f94f9aaa904e2a7eaadc9bb1c590c98b0bb12",
-  "installer_size": 114317541,
-  "signature": "hHhDQlo0R/Ya9uWerFF0JQjTj5aYBRvYHkRtWTwXge6BamrNR9yT/MuAaQB/JKXIDFHEJdVt08oRmAk0ubVsDw=="
+  "sha256": "31c7a1359b4e51f6f4750c12c53afe6de50e2d38513677555a78caa6908894d5",
+  "installer_size": 107746330,
+  "signature": "prFeXEFJFyd4tj44QgWK2NF9RBaGi1oeroYPb/H/ArhlnXxZMlSWJPGkplzqYMta8BL08D1PdhHl3BstPy1/Aw=="
 }
