@@ -1,12 +1,12 @@
 {
-  "version": "1.7.7",
-  "release_date": "2026-07-28",
-  "changelog": "VieNeu TTS nhanh hon nho gom cau; them chon CPU threads; TXT rat dai tu render theo Part de resume va tu ghep M4A streaming.",
+  "version": "1.7.8",
+  "release_date": "2026-07-29",
+  "changelog": "Nang cap Viet lai dai tap voi Localization Profile, QA va resume; Auto Pipeline tu dong dong bo voice muot theo block, do audio that va ngan lech timestamp tich luy.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.7",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.7/AutoDubberStudio_Core_v1.7.7_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.8",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.8/AutoDubberStudio_Core_v1.7.8_Setup.exe",
   "min_compatible": "1.7.2",
-  "sha256": "17cac1ee10ebc66579e5a9096ec2f89fc95876ee32c4867810cc2bbe54b66d80",
-  "installer_size": 107760047,
-  "signature": "mVdowtzQFCtbVeMB8ovFLow57Qrc8qXMaV0kMb+YLT7IK0zFCsjsmjLpW+gNr12K3OhxCPuJxbDfIe52o6WMBA=="
+  "sha256": "3a3eba9c2d376fb546a1f45bf5e967b16fb06e312490e3bff1dd9ca624f6e662",
+  "installer_size": 107780332,
+  "signature": "5udLw0VOa0Ik50CNd482juQNTfobnBdq39JlQSRvRRQs8+sVHndD53VOH0jAtdgR7QWfLaEitXjKFo5Ike/bBg=="
 }
