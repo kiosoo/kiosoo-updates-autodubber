@@ -1,12 +1,12 @@
 {
-  "version": "1.7.8",
+  "version": "1.7.9",
   "release_date": "2026-07-29",
-  "changelog": "Nang cap Viet lai dai tap voi Localization Profile, QA va resume; Auto Pipeline tu dong dong bo voice muot theo block, do audio that va ngan lech timestamp tich luy.",
+  "changelog": "Nut Dung huy that request va retry; log API khong con quota suy doan; OmniVoice Auto Pipeline gom nhieu block vao mot batch GPU nhung van giu timestamp rieng.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.8",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.8/AutoDubberStudio_Core_v1.7.8_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.9",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.9/AutoDubberStudio_Core_v1.7.9_Setup.exe",
   "min_compatible": "1.7.2",
-  "sha256": "3a3eba9c2d376fb546a1f45bf5e967b16fb06e312490e3bff1dd9ca624f6e662",
-  "installer_size": 107780332,
-  "signature": "5udLw0VOa0Ik50CNd482juQNTfobnBdq39JlQSRvRRQs8+sVHndD53VOH0jAtdgR7QWfLaEitXjKFo5Ike/bBg=="
+  "sha256": "c7e96801a17944b40aafd38035bfcc38e534eea9168a6c55f2cddce318e9cb6b",
+  "installer_size": 107787536,
+  "signature": "JTGnt2Fin+GhKqUzFG/puull4fShmIIyXczubDDV96+ZAGxZ5DyTjzKiMsy3gm+WwNSc1gk51kON4vRA/OyBDg=="
 }
