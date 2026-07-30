@@ -1,12 +1,12 @@
 {
-  "version": "1.7.9",
-  "release_date": "2026-07-29",
-  "changelog": "Nut Dung huy that request va retry; log API khong con quota suy doan; OmniVoice Auto Pipeline gom nhieu block vao mot batch GPU nhung van giu timestamp rieng.",
+  "version": "1.8.0",
+  "release_date": "2026-07-30",
+  "changelog": "Them OCR phu de cung va Hybrid OCR + Whisper; Auto tu phat hien hard-sub va fallback Whisper; Subtitle OCR tai rieng trong Model Manager.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.7.9",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.7.9/AutoDubberStudio_Core_v1.7.9_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.0",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.0/AutoDubberStudio_Core_v1.8.0_Setup.exe",
   "min_compatible": "1.7.2",
-  "sha256": "c7e96801a17944b40aafd38035bfcc38e534eea9168a6c55f2cddce318e9cb6b",
-  "installer_size": 107787536,
-  "signature": "JTGnt2Fin+GhKqUzFG/puull4fShmIIyXczubDDV96+ZAGxZ5DyTjzKiMsy3gm+WwNSc1gk51kON4vRA/OyBDg=="
+  "sha256": "d34af1e96f76f27ccfb624bcd1236733fcd89ab1f96f4b6b78e2d62818488c49",
+  "installer_size": 107812209,
+  "signature": "YM2j5QHTYav8JJwsrozzYqJf8XbWSORjJJNXXD/lq9iZXaDRU/uOrStkhWxp3A7F1xawhPeDB1QV21TpuXYJDA=="
 }
