@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-28T09:00:00Z",
+  "generated_at": "2026-07-30T00:00:00Z",
   "components": [
     {
       "id": "whisper-runtime",
@@ -61,6 +61,17 @@
       "sha256": "90f6ff0b7248d4fd273cb2592c2a7d438a07f54ea9210061223afe85949a195d",
       "size": 11987127,
       "unpacked_size": 35975148,
+      "dependencies": []
+    },
+    {
+      "id": "subtitle-ocr",
+      "name": "Subtitle OCR (CPU)",
+      "description": "PaddleOCR/OpenCV hard-subtitle recognition for Chinese and multilingual video text. Includes offline PP-OCRv4 mobile models.",
+      "version": "1.0.0",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.0/Kiosoo_Subtitle_OCR_CPU_v1.0.0.zip",
+      "sha256": "b3a5b7947a992df7432923bc092ade6d2651b6832b6ea07f20e6d5eb9cceeeb5",
+      "size": 297336208,
+      "unpacked_size": 769998461,
       "dependencies": []
     },
     {
@@ -157,5 +168,5 @@
       "dependencies": []
     }
   ],
-  "signature": "tWvMeoQl+3yRJ0XGZTK7fvoEKThvfdB9L1WFmSiv5ij8S7tf0Hco9JU7eFtpobDEdGB0HCp7375GF33nqWyYAA=="
+  "signature": "16A86swbEeb7w/oXJkqOTvnASNWj8otLvFZ0Nrwx1yYQ1nw1iFoWfXQiRGOqYnJrEi+i7WCooyCsPWXp7ddVDw=="
 }
