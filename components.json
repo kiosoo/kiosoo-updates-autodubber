@@ -131,28 +131,33 @@
     },
     {
       "id": "cuda-runtime",
-      "name": "CUDA Runtime",
-      "description": "PyTorch 2.5.1 CUDA 12.4 runtime for Clone giọng.",
-      "version": "12.4-torch2.5.1",
-      "sha256": "cd92ad7bac24b8f9d0256df6246ca18b07514dea6cce8a151fe7dd5da2efc19b",
-      "size": 3775952719,
-      "unpacked_size": 3775613961,
+      "name": "NVIDIA CUDA 12.8 Runtime (RTX 50 / Blackwell)",
+      "description": "PyTorch 2.7.1 CUDA 12.8 and torchaudio runtime with sm_120 support for GeForce RTX 50 series.",
+      "version": "12.8-torch2.7.1",
+      "sha256": "0859efd4cd85ac33057fef8bdd32cf5cb2d9fdb684a8d751e591481aa7ca6dd8",
+      "size": 5851233954,
+      "unpacked_size": 5848647482,
       "dependencies": [],
       "parts": [
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.4-torch2.5.1.part01.zip",
-          "sha256": "9e0ed7f037871ad6de76b0e973ef3edb5a1590d4fadf6214ec6c0eac0475e575",
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.8-torch2.7.1.part01.zip",
+          "sha256": "8ca7d10f656517d6a4a319462e185f5a50d11897e87ad9ffae04f604cd9e7b65",
           "size": 1610612736
         },
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.4-torch2.5.1.part02.zip",
-          "sha256": "d368a02725cf28ac316fd6b720767759fed025b5f705ed9266b624c4038b8b61",
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.8-torch2.7.1.part02.zip",
+          "sha256": "982d22a67251947f1c58936da2cbaddcb4652fe518337f89b9cb5ad12a3b0f17",
           "size": 1610612736
         },
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.4-torch2.5.1.part03.zip",
-          "sha256": "04054a0c1909115485c42b1290e77191c45ea100c7ef21f95961cdbaed3fc4a1",
-          "size": 554727247
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.8-torch2.7.1.part03.zip",
+          "sha256": "c782bc87d49ba21c853ce2c807be1982f800d8e16f23b793e798359380bb2066",
+          "size": 1610612736
+        },
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.8-torch2.7.1.part04.zip",
+          "sha256": "7e3196d2dd7d553858b5c4cebd84e754aeb1e18ff632cc9760842cc0992da719",
+          "size": 1019395746
         }
       ]
     },
@@ -168,5 +173,5 @@
       "dependencies": []
     }
   ],
-  "signature": "16A86swbEeb7w/oXJkqOTvnASNWj8otLvFZ0Nrwx1yYQ1nw1iFoWfXQiRGOqYnJrEi+i7WCooyCsPWXp7ddVDw=="
+  "signature": "s+c7dhdPpyLjXoeeJNwGFbsIQL1KtfHc5VmpZAtxqsP758PzfRiUzrcKNmu/C2xz/T87Am8l4Ln32mbiBH0BBw=="
 }
