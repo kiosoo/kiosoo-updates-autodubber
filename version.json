@@ -1,12 +1,12 @@
 {
-  "version": "1.8.1",
+  "version": "1.8.2",
   "release_date": "2026-08-18",
-  "changelog": "Sua xac thuc HTTPS cho Model Manager va updater tren Windows; dung Windows trust store voi CA bundle du phong, giu nguyen kiem tra chu ky va SHA-256 component.",
+  "changelog": "Sua xac thuc HTTPS cho Model Manager va updater tren Windows; xu ly SRT UTF-8 BOM; dung Windows trust store voi CA bundle du phong, giu nguyen kiem tra chu ky va SHA-256 component.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.1",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.1/AutoDubberStudio_Core_v1.8.1_Setup.exe",
-  "min_compatible": "1.8.0",
-  "sha256": "6c51448a21e8ccdafba15679cb51270932bc699119b52cb85836385113714494",
-  "installer_size": 110366278,
-  "signature": "9nWAndR8z+haL9a4BAmFksnNzLRbBtaih2r6R/ivtdwz5WpBaI77A6XSgepZbeX8NeaDVUnWvjbwI6iVCyP/Bw=="
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.2",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.2/AutoDubberStudio_Core_v1.8.2_Setup.exe",
+  "min_compatible": "1.8.1",
+  "sha256": "d259f5c1be587c0332754e3be19bad43f68db79dfec91250510edc10eff6fc9c",
+  "installer_size": 110377913,
+  "signature": "nG3vsNmZnBQFNF5yL6eA/DbaQMzWgPg1SIVPzICQYZfUvVF5PqUqtRp4gAY3H1QkrX+2+Gp3eEHKFKYiYOysCg=="
 }
