@@ -6,7 +6,7 @@
   "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.3",
   "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.3/AutoDubberStudio_Core_v1.8.3_Setup.exe",
   "min_compatible": "1.8.2",
-  "sha256": "f22f5b4ec6ef863df07ee6dd91159a1349aae2dc5a87508150b86e9d06ce46d3",
-  "installer_size": 209434693,
-  "signature": "LIEprBbC2QYz5VksFUZ9PEiZ0nkyJ15zulrz3hqY11wA9xs1yeUqZa+os9BC9Gg4f6K5CYCkptq+l5fvDBo5BQ=="
+  "sha256": "b6007f0453e6ab465051bf4b6316cd32a3dba1d15538526379222ae912197fc3",
+  "installer_size": 209436806,
+  "signature": "F4SNYCTPqyZ6YHRwceozc7irg9zdCGDWfHOyk7Hc5ps28Ba0t+64I9cTQ4XzyEFHcwLOzNlSzzYctZbYLCxVDw=="
 }
