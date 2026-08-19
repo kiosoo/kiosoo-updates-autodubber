@@ -14,6 +14,17 @@
       "dependencies": []
     },
     {
+      "id": "whisper-cuda-runtime",
+      "name": "Whisper CUDA Runtime",
+      "description": "CTranslate2 4.8.1 CUDA 12.6/cuDNN 9.5 runtime shared by RTX 30, 40 and 50 series.",
+      "version": "1.0.0",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates/releases/download/v1.6.4/Kiosoo_NVIDIA_Runtime_CUDA12_v1.zip",
+      "sha256": "02127e552d436b8a8adf85051779c9b663ab111166209a3ed433d46ad887b883",
+      "size": 998842026,
+      "unpacked_size": 1486351126,
+      "dependencies": []
+    },
+    {
       "id": "whisper-tiny",
       "name": "Whisper Tiny",
       "description": "Smallest and fastest Whisper model for quick transcription.",
@@ -173,5 +184,5 @@
       "dependencies": []
     }
   ],
-  "signature": "fFvOKgk/Fiea45NO8yPjpDCg+HXv4w9nwSKyekh/0xrFCrYYqsycKQMcxFc3+qG9kVRamHPf7ba2x0NVezR9Dg=="
+  "signature": "yz1+/gjl1a+licXNJlHfmE2I61RcnAijzk1UsottdzRwKFfWgnEV3/nQa0j4FpouePMesQP3PY1WFR8w0eg0Cw=="
 }
