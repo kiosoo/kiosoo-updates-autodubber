@@ -1,12 +1,12 @@
 {
-  "version": "1.8.2",
-  "release_date": "2026-08-18",
-  "changelog": "Sua xac thuc HTTPS cho Model Manager va updater tren Windows; xu ly SRT UTF-8 BOM; dung Windows trust store voi CA bundle du phong, giu nguyen kiem tra chu ky va SHA-256 component.",
-  "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.2",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.2/AutoDubberStudio_Core_v1.8.2_Setup.exe",
-  "min_compatible": "1.8.1",
-  "sha256": "d259f5c1be587c0332754e3be19bad43f68db79dfec91250510edc10eff6fc9c",
-  "installer_size": 110377913,
-  "signature": "nG3vsNmZnBQFNF5yL6eA/DbaQMzWgPg1SIVPzICQYZfUvVF5PqUqtRp4gAY3H1QkrX+2+Gp3eEHKFKYiYOysCg=="
+  "version": "1.8.3",
+  "release_date": "2026-08-19",
+  "changelog": "Sua CUDA preload voi timeit va pickletools; fallback CPU an toan khi Torch/CUDA khong san sang; sua pipeline khong bao thanh cong gia; sua updater dong app theo PID va khoi dong installer sau khi app thoat.",
+  "distribution_mode": "manual",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.3",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.3/AutoDubberStudio_Core_v1.8.3_Setup.exe",
+  "min_compatible": "1.8.2",
+  "sha256": "1965461949f29f4350b4c196ff5446ae6f5f10db4f535a6597f902117a2a50fe",
+  "installer_size": 110414437,
+  "signature": "sHwsM+zXAeaCRsAWSc9D8RMtIE5Q63gyrMvUCMZpVuq40YEmC7ZJx90+bU7Gl6Scg7yWEzOuzrxydzEIrnIJDg=="
 }
