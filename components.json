@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T10:00:00Z",
+  "generated_at": "2026-08-19T17:30:00+07:00",
   "components": [
     {
-      "id": "whisper-cuda-runtime",
+      "id": "nvidia-runtime",
       "name": "NVIDIA Acceleration (CUDA/cuDNN)",
-      "description": "The proven standalone CUDA 12/cuDNN DLL pack used by Kiosoo Toolkit for Whisper GPU acceleration.",
+      "description": "The proven standalone CUDA 12/cuBLAS/cuDNN DLL pack used by Kiosoo Toolkit. Shared by Whisper and OmniVoice on NVIDIA GPUs.",
       "version": "1.0.0",
       "download_url": "https://github.com/kiosoo/kiosoo-updates/releases/download/v1.6.4/Kiosoo_NVIDIA_Runtime_CUDA12_v1.zip",
       "sha256": "02127e552d436b8a8adf85051779c9b663ab111166209a3ed433d46ad887b883",
@@ -91,7 +91,7 @@
       "size": 129093832,
       "unpacked_size": 415612192,
       "dependencies": [
-        "cuda-runtime"
+        "nvidia-runtime"
       ]
     },
     {
@@ -124,38 +124,6 @@
       ]
     },
     {
-      "id": "cuda-runtime-blackwell",
-      "name": "NVIDIA CUDA 12.8 Runtime (RTX 50 / Blackwell)",
-      "description": "PyTorch 2.7.1 CUDA 12.8 and torchaudio runtime with sm_120 support for GeForce RTX 50 series.",
-      "version": "12.8-torch2.7.1",
-      "sha256": "18544e35226807fddb04ecf90e6569c8be1f73a0c713100cd7d2648d72e50dd3",
-      "size": 5851247907,
-      "unpacked_size": 5848661327,
-      "dependencies": [],
-      "parts": [
-        {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.8-torch2.7.1.part01.zip",
-          "sha256": "7f92f5a16491aa3edd95a06e314cd5f6c2855ffb2a556f37c11f753914d836d5",
-          "size": 1610612736
-        },
-        {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.8-torch2.7.1.part02.zip",
-          "sha256": "3d373f68a5e3ce707491f7408f9dbffcd1a7f6d5b60589b32e373f7467509766",
-          "size": 1610612736
-        },
-        {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.8-torch2.7.1.part03.zip",
-          "sha256": "5d99a86a45257ba1b13b4d96cab40a383f652aa1c9a47c3a51c578fd16f61f9a",
-          "size": 1610612736
-        },
-        {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/cuda-runtime-12.8-torch2.7.1.part04.zip",
-          "sha256": "e8fd53b152655fda916bcd6b0ed6ba5cbcc7fcccccecb37e03811f02ed2b9890",
-          "size": 1019409699
-        }
-      ]
-    },
-    {
       "id": "vieneu-runtime",
       "name": "VieNeu-TTS Runtime",
       "description": "VieNeu v3 Turbo CPU ONNX runtime. Includes SDK and native ONNX dependencies; excludes the optional Gradio web UI.",
@@ -167,5 +135,5 @@
       "dependencies": []
     }
   ],
-  "signature": "IkbbmEeDAt0Jz23oaiXOQ8g6atQmY/5caiYYV8nBRI1IETCUA4b3YWQ5T+xMT5G5gNXMQuoidqkfSB2+pWlWDQ=="
+  "signature": "fMEC+Uki5eMVQ+ofsCqnZOpwpHoPmeYuSHNSOKjSHpFym/x7xOKYgKkDfwuvhk0dRlP14MRFTTqFYFdqLsQKCg=="
 }

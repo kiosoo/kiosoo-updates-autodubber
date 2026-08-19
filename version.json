@@ -1,12 +1,12 @@
 {
   "version": "1.8.3",
   "release_date": "2026-08-19",
-  "changelog": "Sua crash Whisper native: chay trong executable rieng khong nap PyQt/Torch/OmniVoice; CPU va CUDA float16 da smoke-test end-to-end; CUDA dung chung bo DLL NVIDIA cua Kiosoo Toolkit.",
+  "changelog": "Don Model Manager con 10 goi thuc su can thiet; bo runtime RTX/Vulkan/CPU va model chua phat hanh; Whisper va OmniVoice dung chung mot NVIDIA CUDA/cuDNN pack cua Kiosoo Toolkit; giu tuong thich goi NVIDIA ten cu.",
   "distribution_mode": "manual",
   "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.3",
   "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.3/AutoDubberStudio_Core_v1.8.3_Setup.exe",
   "min_compatible": "1.8.2",
-  "sha256": "a93662174f0bd973f92213335413ba49c7885228d56d7ce6722a34d3c2f86d51",
-  "installer_size": 209442325,
-  "signature": "jltsQ+SJtG9sObtf/OSs+HPvZAxSqnUFsWLIn+g0JkIxYTkhhTM2i9iCNYHCi23bSE2mjLlav5R46RjkssyOAA=="
+  "sha256": "f22f5b4ec6ef863df07ee6dd91159a1349aae2dc5a87508150b86e9d06ce46d3",
+  "installer_size": 209434693,
+  "signature": "LIEprBbC2QYz5VksFUZ9PEiZ0nkyJ15zulrz3hqY11wA9xs1yeUqZa+os9BC9Gg4f6K5CYCkptq+l5fvDBo5BQ=="
 }
