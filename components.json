@@ -1,22 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-07-30T00:00:00Z",
+  "generated_at": "2026-08-19T10:00:00Z",
   "components": [
     {
-      "id": "whisper-runtime",
-      "name": "Whisper Runtime",
-      "description": "Faster-Whisper and CTranslate2 speech recognition runtime.",
-      "version": "1.2.1",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-runtime-1.2.1.zip",
-      "sha256": "ae33662648eabe8c38e5caf35e7ce3d0f9e48df6d4e7310931fe1d4de6db2516",
-      "size": 56586325,
-      "unpacked_size": 156577826,
-      "dependencies": []
-    },
-    {
       "id": "whisper-cuda-runtime",
-      "name": "Whisper CUDA Runtime",
-      "description": "CTranslate2 4.8.1 CUDA 12.6/cuDNN 9.5 runtime shared by RTX 30, 40 and 50 series.",
+      "name": "NVIDIA Acceleration (CUDA/cuDNN)",
+      "description": "The proven standalone CUDA 12/cuDNN DLL pack used by Kiosoo Toolkit for Whisper GPU acceleration.",
       "version": "1.0.0",
       "download_url": "https://github.com/kiosoo/kiosoo-updates/releases/download/v1.6.4/Kiosoo_NVIDIA_Runtime_CUDA12_v1.zip",
       "sha256": "02127e552d436b8a8adf85051779c9b663ab111166209a3ed433d46ad887b883",
@@ -33,9 +22,7 @@
       "sha256": "340da452b1d7e859234bd443a658f73dc60c63fe575c6cdd1c3b62d11d423223",
       "size": 69908904,
       "unpacked_size": 78207343,
-      "dependencies": [
-        "whisper-runtime"
-      ]
+      "dependencies": []
     },
     {
       "id": "whisper-base",
@@ -46,9 +33,7 @@
       "sha256": "a9abc297a00b5a7ad68bcdb7f212ec81a9cd6dec26e716f0cb3fea0e94adf886",
       "size": 133321405,
       "unpacked_size": 147886658,
-      "dependencies": [
-        "whisper-runtime"
-      ]
+      "dependencies": []
     },
     {
       "id": "whisper-small",
@@ -59,9 +44,7 @@
       "sha256": "a54cc4f0c29faf31e9d2b58e37cd5a91432930430f46cf011beb68d7bc9f47b6",
       "size": 446440096,
       "unpacked_size": 486216091,
-      "dependencies": [
-        "whisper-runtime"
-      ]
+      "dependencies": []
     },
     {
       "id": "supertonic-runtime",
@@ -184,5 +167,5 @@
       "dependencies": []
     }
   ],
-  "signature": "qWjk0bHYOQAWkMwZsZD6tnuzSj+O2ptVPA9unV9Z/7Z+RzFmtk572EW9KXUIosfaXuabSRy9tyL8eHnWmgGmAA=="
+  "signature": "IkbbmEeDAt0Jz23oaiXOQ8g6atQmY/5caiYYV8nBRI1IETCUA4b3YWQ5T+xMT5G5gNXMQuoidqkfSB2+pWlWDQ=="
 }
