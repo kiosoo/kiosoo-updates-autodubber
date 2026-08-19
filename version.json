@@ -1,12 +1,12 @@
 {
   "version": "1.8.3",
   "release_date": "2026-08-19",
-  "changelog": "Sua CUDA preload voi timeit va pickletools; fallback CPU an toan khi Torch/CUDA khong san sang; sua pipeline khong bao thanh cong gia; sua updater dong app theo PID va khoi dong installer sau khi app thoat.",
+  "changelog": "Sua Whisper CPU/CUDA tach khoi Torch; dung CTranslate2 4.8.1 va faster-whisper 1.2.1; CUDA RTX 30/40/50 dung chung runtime CTranslate2; fallback CPU an toan; bo sung timeit va pickletools.",
   "distribution_mode": "manual",
   "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.3",
   "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.3/AutoDubberStudio_Core_v1.8.3_Setup.exe",
   "min_compatible": "1.8.2",
-  "sha256": "8ABB3D97D38254325B08DE1DE30A673D2983914E29296CD1EC0749FE88C172C3",
-  "installer_size": 110422610,
-  "signature": "mB2twaU1wPXBAoVyjuhdNKpVlsHw0sU5fvLsOshCtNQSVWQOuYQUTnElExSvRGn2jh+qBwZrDVvEN51t2iWgBQ=="
+  "sha256": "66B733C3DBE84E432A86B25D2E1CD720D2F7FE8065E2E77EE06F3DF797122452",
+  "installer_size": 110423650,
+  "signature": "YMlEoOvMf0ck+yCKmWNnw4Lz0gXePLxlR64m/ujZUrZEtcZdF704kK89CnAE3bMvzDGSs0DXh5r8wG0fD0mQCQ=="
 }
