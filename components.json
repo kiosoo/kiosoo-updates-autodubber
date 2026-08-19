@@ -6,11 +6,11 @@
       "id": "whisper-runtime",
       "name": "Whisper Runtime",
       "description": "Faster-Whisper and CTranslate2 speech recognition runtime.",
-      "version": "1.1.0",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-runtime-1.1.0.zip",
-      "sha256": "69bb3ff8467006fa0b90f234eae2be6c737e77e806c89d3d3ecf9c6e02b869eb",
-      "size": 54916139,
-      "unpacked_size": 155267052,
+      "version": "1.2.1",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-runtime-1.2.1.zip",
+      "sha256": "ae33662648eabe8c38e5caf35e7ce3d0f9e48df6d4e7310931fe1d4de6db2516",
+      "size": 56586325,
+      "unpacked_size": 156577826,
       "dependencies": []
     },
     {
@@ -184,5 +184,5 @@
       "dependencies": []
     }
   ],
-  "signature": "yz1+/gjl1a+licXNJlHfmE2I61RcnAijzk1UsottdzRwKFfWgnEV3/nQa0j4FpouePMesQP3PY1WFR8w0eg0Cw=="
+  "signature": "qWjk0bHYOQAWkMwZsZD6tnuzSj+O2ptVPA9unV9Z/7Z+RzFmtk572EW9KXUIosfaXuabSRy9tyL8eHnWmgGmAA=="
 }
