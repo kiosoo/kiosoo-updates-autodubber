@@ -130,7 +130,7 @@
       ]
     },
     {
-      "id": "cuda-runtime",
+      "id": "cuda-runtime-blackwell",
       "name": "NVIDIA CUDA 12.8 Runtime (RTX 50 / Blackwell)",
       "description": "PyTorch 2.7.1 CUDA 12.8 and torchaudio runtime with sm_120 support for GeForce RTX 50 series.",
       "version": "12.8-torch2.7.1",
@@ -173,5 +173,5 @@
       "dependencies": []
     }
   ],
-  "signature": "B00j+YMZ6+4EYjWptDJZEYbAp9MrasI2Dih7dcpm3C2M78HYEBw6pd6iJh9GIkauJjxE6jXqZ2Vb4ulymqw0Bw=="
+  "signature": "fFvOKgk/Fiea45NO8yPjpDCg+HXv4w9nwSKyekh/0xrFCrYYqsycKQMcxFc3+qG9kVRamHPf7ba2x0NVezR9Dg=="
 }
