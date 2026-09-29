@@ -3,3 +3,11 @@
 Signed update manifests and optional component catalog for AutoDubber Studio.
 
 Release assets contain optional runtime and model packs. Large ZIP files are not committed directly to this repository.
+
+## Current release
+
+- Core installer: AutoDubber Studio `1.8.4`
+- Whisper: CPU-only by default; it does not depend on a shared NVIDIA runtime.
+- OmniVoice: optional `omnivoice-runtime` `0.2.0` component, using an isolated Torch `2.8.0 + cu128` worker.
+- GPU behavior: the worker detects the installed NVIDIA driver/GPU and reports a structured preflight result; CUDA failure can fall back to a fresh CPU worker.
+- The OmniVoice runtime is published as four multipart ZIP assets under the `components-v1.8.4` release. The app verifies every part and the reconstructed archive SHA-256 before extraction.
