@@ -75,9 +75,9 @@
       "name": "OmniVoice GPU Runtime",
       "description": "Isolated OmniVoice inference runtime with Torch 2.8.0 and CUDA 12.8. The worker detects the installed NVIDIA GPU and falls back to CPU safely when CUDA is unavailable.",
       "version": "0.2.0",
-      "sha256": "81241b0e50dae1e54e24916f9cfcc1fda3e0d7845985fae5c80acfb980f32f54",
-      "size": 5070782532,
-      "unpacked_size": 5067497714,
+      "sha256": "28d275d89c1f5d7184e0442e44eb99542d5e0f7126076f4517b906bca6c417a7",
+      "size": 5070828583,
+      "unpacked_size": 5067542611,
       "dependencies": [],
       "engine": "omnivoice",
       "backend": "cuda",
@@ -87,23 +87,23 @@
       "parts": [
         {
           "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.4/omnivoice-runtime-0.2.0.part01.zip",
-          "sha256": "467fc962eb35ba12f9b6aaed6311c2c9abc046c6cb19ce70803e8771167677cd",
+          "sha256": "5a9ce3763661f5e66004aae4a7223ab027fa4e4265c11e92c8a546173e43afb8",
           "size": 1610612736
         },
         {
           "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.4/omnivoice-runtime-0.2.0.part02.zip",
-          "sha256": "de5b39ff55bf44416ce53069ed945605233803ab03e42664e9235f74ea3ba21b",
+          "sha256": "e5a08f534de9b8399156aef013bf0e2160b2f8f09615eddbac1c4bd1f8e70eae",
           "size": 1610612736
         },
         {
           "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.4/omnivoice-runtime-0.2.0.part03.zip",
-          "sha256": "9a8a3871ad45e9997c762a9ecebf593ace589c634737808cfb115f93cedc1fb0",
+          "sha256": "c9e3b9ed1153f6879217f4837e6dbeb3d036ee20b880d55ea0fbfdb9de445f3a",
           "size": 1610612736
         },
         {
           "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.4/omnivoice-runtime-0.2.0.part04.zip",
-          "sha256": "0d3ee1e27b42f5434cb4262030c79dd22f34542b6e7c2799c6c57a8f3e2d14c7",
-          "size": 238944324
+          "sha256": "bf297d6a6363110c15ed8f0cfae8324bc24ebdb7c4b4cf2d99c7a54a0798fe91",
+          "size": 238990375
         }
       ]
     },
@@ -148,5 +148,5 @@
       "dependencies": []
     }
   ],
-  "signature": "ZdW/UzhjGS5f7SXEi+o+xCEMSNmCxkrJ5cTVOIg7KtxoyDML3qQCdaiyHtzgQXmah1jkeVoppNIs1Jyu7tCCCg=="
+  "signature": "MIYafejl3PnYuz3iIWk/+nOnt+ZktaYAHtMQkLLFnF7sISnzYdum9n2n3prqIe/BNWVug5n8dpCOlIslCAEvAA=="
 }
