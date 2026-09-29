@@ -2,11 +2,11 @@
   "version": "1.8.4",
   "release_date": "2026-09-29",
   "changelog": "Tach OmniVoice CUDA worker khoi app chinh; Whisper CPU mac dinh; preflight GPU va fallback CPU an toan; Model Manager loai bo component cu.",
-  "distribution_mode": "manual",
+  "distribution_mode": "verified_auto",
   "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.4",
   "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.4/AutoDubberStudio_Core_v1.8.4_Setup.exe",
   "min_compatible": "1.8.3",
   "sha256": "78035f2af0e4d16aae83bac445a74a1e8f7257084736ac59319381d6d5571e6a",
   "installer_size": 209478799,
-  "signature": "AnksNiTt0IRFjmtY/jWpLDk0qTK7+bNc3bPV5db/iBSzyC0lGPCOcxdUsT+GOfkEaq3MZot3Uy7IH8FTydQjBg=="
+  "signature": "azticLAH9FiUO5yYkcxsA7LRWvm0PYyO2vbo6+3VLmHsbkuUO9DTB0r9ustNSuDfBF5llbjN0VzfgiIloJmDBw=="
 }
