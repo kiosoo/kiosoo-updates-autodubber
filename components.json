@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-19T17:30:00+07:00",
+  "generated_at": "2026-09-29T18:04:00+07:00",
   "components": [
     {
       "id": "whisper-tiny",
@@ -148,5 +148,5 @@
       "dependencies": []
     }
   ],
-  "signature": "sINwzak+Lm/qYnr17aN9vp1JeXW33zV6vznNCJbYk1lBdPvIt7wg7na9q0v75qsVVZBM0CkrpZECqiTMnSJZCg=="
+  "signature": "ZdW/UzhjGS5f7SXEi+o+xCEMSNmCxkrJ5cTVOIg7KtxoyDML3qQCdaiyHtzgQXmah1jkeVoppNIs1Jyu7tCCCg=="
 }
