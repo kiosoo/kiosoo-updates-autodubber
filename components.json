@@ -3,17 +3,6 @@
   "generated_at": "2026-08-19T17:30:00+07:00",
   "components": [
     {
-      "id": "nvidia-runtime",
-      "name": "NVIDIA Acceleration (CUDA/cuDNN)",
-      "description": "The proven standalone CUDA 12/cuBLAS/cuDNN DLL pack used by Kiosoo Toolkit. Shared by Whisper and OmniVoice on NVIDIA GPUs.",
-      "version": "1.0.0",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates/releases/download/v1.6.4/Kiosoo_NVIDIA_Runtime_CUDA12_v1.zip",
-      "sha256": "02127e552d436b8a8adf85051779c9b663ab111166209a3ed433d46ad887b883",
-      "size": 998842026,
-      "unpacked_size": 1486351126,
-      "dependencies": []
-    },
-    {
       "id": "whisper-tiny",
       "name": "Whisper Tiny",
       "description": "Smallest and fastest Whisper model for quick transcription.",
@@ -83,15 +72,39 @@
     },
     {
       "id": "omnivoice-runtime",
-      "name": "Voice Clone Runtime",
-      "description": "OmniVoice inference runtime and audio dependencies.",
-      "version": "0.1.6",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/omnivoice-runtime-0.1.6.zip",
-      "sha256": "952a94be54afc946dc1b4f78418a09d22acb1ddb845344c0b4efada4b2262154",
-      "size": 129093832,
-      "unpacked_size": 415612192,
-      "dependencies": [
-        "nvidia-runtime"
+      "name": "OmniVoice GPU Runtime",
+      "description": "Isolated OmniVoice inference runtime with Torch 2.8.0 and CUDA 12.8. The worker detects the installed NVIDIA GPU and falls back to CPU safely when CUDA is unavailable.",
+      "version": "0.2.0",
+      "sha256": "81241b0e50dae1e54e24916f9cfcc1fda3e0d7845985fae5c80acfb980f32f54",
+      "size": 5070782532,
+      "unpacked_size": 5067497714,
+      "dependencies": [],
+      "engine": "omnivoice",
+      "backend": "cuda",
+      "torch_version": "2.8.0",
+      "cuda_variant": "cu128",
+      "min_driver": "570.26",
+      "parts": [
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.4/omnivoice-runtime-0.2.0.part01.zip",
+          "sha256": "467fc962eb35ba12f9b6aaed6311c2c9abc046c6cb19ce70803e8771167677cd",
+          "size": 1610612736
+        },
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.4/omnivoice-runtime-0.2.0.part02.zip",
+          "sha256": "de5b39ff55bf44416ce53069ed945605233803ab03e42664e9235f74ea3ba21b",
+          "size": 1610612736
+        },
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.4/omnivoice-runtime-0.2.0.part03.zip",
+          "sha256": "9a8a3871ad45e9997c762a9ecebf593ace589c634737808cfb115f93cedc1fb0",
+          "size": 1610612736
+        },
+        {
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.4/omnivoice-runtime-0.2.0.part04.zip",
+          "sha256": "0d3ee1e27b42f5434cb4262030c79dd22f34542b6e7c2799c6c57a8f3e2d14c7",
+          "size": 238944324
+        }
       ]
     },
     {
@@ -135,5 +148,5 @@
       "dependencies": []
     }
   ],
-  "signature": "fMEC+Uki5eMVQ+ofsCqnZOpwpHoPmeYuSHNSOKjSHpFym/x7xOKYgKkDfwuvhk0dRlP14MRFTTqFYFdqLsQKCg=="
+  "signature": "sINwzak+Lm/qYnr17aN9vp1JeXW33zV6vznNCJbYk1lBdPvIt7wg7na9q0v75qsVVZBM0CkrpZECqiTMnSJZCg=="
 }
