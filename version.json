@@ -1,12 +1,12 @@
 {
-  "version": "1.8.4",
-  "release_date": "2026-09-29",
-  "changelog": "Tach OmniVoice CUDA worker khoi app chinh; Whisper CPU mac dinh; preflight GPU va fallback CPU an toan; Model Manager loai bo component cu.",
+  "version": "1.8.5",
+  "release_date": "2026-09-30",
+  "changelog": "Fix OmniVoice runtime detection in dev and packaged builds; stop repeated fallback when runtime is missing; prevent empty WAV success; isolate CUDA worker; Whisper CPU stability; reflect glossary fix.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.4",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.4/AutoDubberStudio_Core_v1.8.4_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.5",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.5/AutoDubberStudio_Core_v1.8.5_Setup.exe",
   "min_compatible": "1.8.3",
-  "sha256": "e45e619a6d08458a8c0772b4a49f165e1e98db1f7e21ddd1fb27fa29c88861f5",
-  "installer_size": 209490459,
-  "signature": "W/jLvIPD+oZYhwTToC0HvWwsvTUJTFVomFSUEtCROPWO8Zbl1DGncKL3icxth7RDzuwuln20LRhNDG095beFCg=="
+  "sha256": "4961208475ef6bae7431a119164a37d251defbbb84ce069b9d9d4af2b754fde6",
+  "installer_size": 209492189,
+  "signature": "0rqQeN44BshrhTNbUdMdb98z/G3iKZajq8mlBoYjV0Mxl0Mg+qdkOhdqeRtlKDr1sKurabRJnZ2YoAQ/vY+QCQ=="
 }
