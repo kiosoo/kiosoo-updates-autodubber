@@ -1,71 +1,71 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T00:00:00+07:00",
+  "generated_at": "2026-10-01T10:43:09+07:00",
   "components": [
     {
       "id": "whisper-tiny",
       "name": "Whisper Tiny",
       "description": "Smallest and fastest Whisper model for quick transcription.",
-      "version": "1.0.0",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-tiny-1.0.0.zip",
-      "sha256": "340da452b1d7e859234bd443a658f73dc60c63fe575c6cdd1c3b62d11d423223",
-      "size": 69908904,
-      "unpacked_size": 78207343,
+      "version": "1.8.10",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/whisper-tiny-1.8.10.zip",
+      "sha256": "73207bd078c780d9d47add820aefd0dbb3ce0b20beda3288a8cd8e1524947a63",
+      "size": 69908891,
+      "unpacked_size": 78207325,
       "dependencies": []
     },
     {
       "id": "whisper-base",
       "name": "Whisper Base",
       "description": "Lightweight Whisper model.",
-      "version": "1.0.0",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-base-1.0.0.zip",
-      "sha256": "a9abc297a00b5a7ad68bcdb7f212ec81a9cd6dec26e716f0cb3fea0e94adf886",
-      "size": 133321405,
-      "unpacked_size": 147886658,
+      "version": "1.8.10",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/whisper-base-1.8.10.zip",
+      "sha256": "57348d9799508b18146af084ef1836af85d7e9410bb166f5b1e0ad0c9c8d91b3",
+      "size": 133321398,
+      "unpacked_size": 147886647,
       "dependencies": []
     },
     {
       "id": "whisper-small",
       "name": "Whisper Small",
       "description": "Balanced speed and accuracy.",
-      "version": "1.0.0",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/whisper-small-1.0.0.zip",
-      "sha256": "a54cc4f0c29faf31e9d2b58e37cd5a91432930430f46cf011beb68d7bc9f47b6",
-      "size": 446440096,
-      "unpacked_size": 486216091,
+      "version": "1.8.10",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/whisper-small-1.8.10.zip",
+      "sha256": "a73793d1d8028623a9be301e7236b7ce4348fbeb9172b05f934fbb982f441dce",
+      "size": 446440090,
+      "unpacked_size": 486216089,
       "dependencies": []
     },
     {
       "id": "supertonic-runtime",
       "name": "Supertonic Runtime",
       "description": "Supertonic and ONNX Runtime speech synthesis runtime.",
-      "version": "1.2.1",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/supertonic-runtime-1.2.1.zip",
-      "sha256": "90f6ff0b7248d4fd273cb2592c2a7d438a07f54ea9210061223afe85949a195d",
-      "size": 11987127,
-      "unpacked_size": 35975148,
+      "version": "1.8.10",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/supertonic-runtime-1.8.10.zip",
+      "sha256": "a70a966bcca9dbecbd5834964c46eb02967355723e1c9bad2d36bd89e9f5fd4d",
+      "size": 43033552,
+      "unpacked_size": 146045593,
       "dependencies": []
     },
     {
       "id": "subtitle-ocr",
       "name": "Subtitle OCR (CPU)",
       "description": "PaddleOCR/OpenCV hard-subtitle recognition for Chinese and multilingual video text. Includes offline PP-OCRv4 mobile models.",
-      "version": "1.0.0",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.0/Kiosoo_Subtitle_OCR_CPU_v1.0.0.zip",
-      "sha256": "b3a5b7947a992df7432923bc092ade6d2651b6832b6ea07f20e6d5eb9cceeeb5",
-      "size": 297336208,
-      "unpacked_size": 769998461,
+      "version": "1.8.10",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/subtitle-ocr-1.8.10.zip",
+      "sha256": "f0888add5033a79283e7cad82a5d99f1f188052054d1e2fdd4fee49a99770c8b",
+      "size": 314123217,
+      "unpacked_size": 815592307,
       "dependencies": []
     },
     {
       "id": "supertonic-model",
       "name": "Supertonic Model",
       "description": "Supertonic 3 multilingual voice model and styles.",
-      "version": "3.0.0",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/supertonic-model-3.0.0.zip",
-      "sha256": "179d0569f8ee90e17db609fa93d42b58ecde7b2e859dcb7547f04b0012c7477b",
-      "size": 371365865,
-      "unpacked_size": 401276998,
+      "version": "1.8.10",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/supertonic-model-1.8.10.zip",
+      "sha256": "76bd972c5ad7c6cf57df079d5fce4e6747ac0e6274ba59879720bd2aad46d78b",
+      "size": 371365875,
+      "unpacked_size": 401277013,
       "dependencies": [
         "supertonic-runtime"
       ]
@@ -74,10 +74,10 @@
       "id": "omnivoice-runtime",
       "name": "OmniVoice GPU Runtime",
       "description": "Isolated OmniVoice inference runtime with Torch 2.8.0 and CUDA 12.8. The worker detects the installed NVIDIA GPU and falls back to CPU safely when CUDA is unavailable.",
-      "version": "0.2.1",
-      "sha256": "12f893c34dd237ec8db0b7aa679afcd3abf8efca459ea1df4a8372a9a7813b28",
-      "size": 5296763222,
-      "unpacked_size": 5291682482,
+      "version": "1.8.10",
+      "sha256": "7296fb607e944b80e0ee6a0ea6d7a7c5f515b716f9b5c59797b4462554e648c4",
+      "size": 5296763183,
+      "unpacked_size": 5291682443,
       "dependencies": [],
       "engine": "omnivoice",
       "backend": "cuda",
@@ -86,24 +86,24 @@
       "min_driver": "570.26",
       "parts": [
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-runtime-0.2.1.part01.zip",
-          "sha256": "c488d746d32bce2e9941604eacdd72b21e22a7b8d2965c0e719a852cc285f44d",
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-runtime-1.8.10.part01.zip",
+          "sha256": "49f9614cc659c7dbfc6426ddfa5e774b9d0f96e509b54284816a6ebc40582417",
           "size": 1610612736
         },
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-runtime-0.2.1.part02.zip",
-          "sha256": "c4e828c71907880ed86351b74da9527314f28f4d87dc4ddf3a5b18d706a67877",
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-runtime-1.8.10.part02.zip",
+          "sha256": "fe3eb14a14f0a10761afe2e2fd6f4014b97933dc3390a8d4ce10e4eca1c8a2aa",
           "size": 1610612736
         },
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-runtime-0.2.1.part03.zip",
-          "sha256": "8fe1a63570c7e01c738a45f8534889a7025f3118195add5d89b0c5dad3a5c83b",
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-runtime-1.8.10.part03.zip",
+          "sha256": "9c2d5bf8d546cf916f834523def4adb4db2f97bb637c9ab3d9a5524ac4b38fb2",
           "size": 1610612736
         },
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-runtime-0.2.1.part04.zip",
-          "sha256": "924cdba2e6e63bae195b1289fae638af484f8eea119892446d4fd176874dd9f3",
-          "size": 464925014
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-runtime-1.8.10.part04.zip",
+          "sha256": "a0980c21c50b09f3c2c619999432249b783236cba786a3505ba1a9bfee2e7a23",
+          "size": 464924975
         }
       ]
     },
@@ -111,28 +111,28 @@
       "id": "omnivoice-model",
       "name": "Voice Clone Model",
       "description": "OmniVoice voice cloning model checkpoint.",
-      "version": "1.0.0",
-      "sha256": "8533e4f5bc398792914ebcfd671f00dc493318ff08d2551887b25acbc0966ac1",
-      "size": 3267472612,
-      "unpacked_size": 3267470338,
+      "version": "1.8.10",
+      "sha256": "089fd2e5ba287716ad1e8b2ca1838ad28a9697254a9fc6bcb9733fa78f9d3212",
+      "size": 3267472644,
+      "unpacked_size": 3267470370,
       "dependencies": [
         "omnivoice-runtime"
       ],
       "parts": [
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/omnivoice-model-1.0.0.part01.zip",
-          "sha256": "ab62e878d85d4565b00271e0f7c92ddd48ca24e7ec077cede121fcb32dd6b585",
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-model-1.8.10.part01.zip",
+          "sha256": "473bf74ed8905962e90943ffb7360eba7c983b79eb37f92f92a797c7f16986b7",
           "size": 1610612736
         },
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/omnivoice-model-1.0.0.part02.zip",
-          "sha256": "503399f5a23dd578b35b520813bd7aa62af1f8c2bd51c37b1f89b0a507b10ec0",
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-model-1.8.10.part02.zip",
+          "sha256": "170adb09dade5e2fcd2a7eed1318565cde38b1f6bb63b2142ef717a5751e26bc",
           "size": 1610612736
         },
         {
-          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1/omnivoice-model-1.0.0.part03.zip",
-          "sha256": "948f209f4b043822f1a8b2e08e7a99e6f826d8466fece53ce99a8535b122d076",
-          "size": 46247140
+          "url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/omnivoice-model-1.8.10.part03.zip",
+          "sha256": "9e5e8038f831c4398a1cbc7f226c9b3a42b18f0ac91c6fef83eb61fc55f115d4",
+          "size": 46247172
         }
       ]
     },
@@ -140,13 +140,13 @@
       "id": "vieneu-runtime",
       "name": "VieNeu-TTS Runtime",
       "description": "VieNeu v3 Turbo CPU ONNX runtime. Includes SDK and native ONNX dependencies; excludes the optional Gradio web UI.",
-      "version": "3.2.3-onnx-cpu.1",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.7.4/Kiosoo_VieNeu_Runtime_v3.2.3-onnx-cpu.1.zip",
-      "sha256": "baf68c21be3275abf794b7a7fb29a34545d6e67049ec99fa17a8594312b3c4e1",
-      "size": 206721680,
-      "unpacked_size": 206123810,
+      "version": "1.8.10",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/vieneu-runtime-1.8.10.zip",
+      "sha256": "ff008b02c8ba031b551131f5a294ffe24a1ecf6c5559e16fc3e5568f071ddbf3",
+      "size": 64337653,
+      "unpacked_size": 211753132,
       "dependencies": []
     }
   ],
-  "signature": "2xHGwiik7Eu03ERv0Y7cFsahV6dv5QEValPNeXQx7m45Hn6FGbfAP4UcnKa5xZ5vmvwcaKkVz3s/Igh9sc5HCw=="
+  "signature": "UbpUlhBiPU+Ks6bd17cRWulwZ+eOMl5Kc+BqAnz5l6KQZN0sqNGsWWTlVk+ru4IZomX8c2shUJu+BSkaQ7DXBQ=="
 }
