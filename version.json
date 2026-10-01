@@ -1,12 +1,12 @@
 {
-  "version": "1.8.11",
+  "version": "1.8.12",
   "release_date": "2026-10-01",
-  "changelog": "Fix VieNeu-TTS stalls and incomplete output: add a separate offline model component, isolated worker with heartbeat/timeout/cancellation, one model load per job, valid audio joining, and pipe-safe UTF-8 worker packaging. Whisper and OmniVoice workers remain isolated.",
+  "changelog": "Update VieNeu-TTS to 3.8.3 with all 25 official preset voices including Ngọc Huyền, Hải Đăng as the official default, upstream voice aliases, and isolated runtime validation so native ONNX/audio DLL failures cannot terminate the main app.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.11",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.11/AutoDubberStudio_Core_v1.8.11_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.12",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.12/AutoDubberStudio_Core_v1.8.12_Setup.exe",
   "min_compatible": "1.8.3",
-  "sha256": "e83d730a32961b76ae431a61ea4b5deaa63a3dd0d0bcc654760bad768b1eeca5",
-  "installer_size": 233053791,
-  "signature": "bM4OGqHUiRLOPhHA1ZyWEFeCssh3nB9qd97/RDy0SPALLsncqozzJD60ZuS9OOOMXTzLld7Dm+FWF/Bv+UYzDw=="
+  "sha256": "b7f4b5cf291f2b41734bd4e77f4716e2d37338ea41011f11cc10485f3409f49e",
+  "installer_size": 233042805,
+  "signature": "F5SmFs9hbMR6nQrZx7gNZnabFui16Vmw68OtvN9V8HPPcrQu/Me3ks6zd+2cWsYhSq03AQs2wR+gfyeL5VuFBw=="
 }

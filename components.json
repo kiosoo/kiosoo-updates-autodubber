@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T21:45:00+07:00",
+  "generated_at": "2026-10-01T19:17:58+07:00",
   "components": [
     {
       "id": "whisper-tiny",
@@ -139,12 +139,12 @@
     {
       "id": "vieneu-runtime",
       "name": "VieNeu-TTS Runtime",
-      "description": "VieNeu v3 Turbo CPU ONNX runtime. Includes SDK and native ONNX dependencies; excludes the optional Gradio web UI.",
-      "version": "1.8.10",
-      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/vieneu-runtime-1.8.10.zip",
-      "sha256": "ff008b02c8ba031b551131f5a294ffe24a1ecf6c5559e16fc3e5568f071ddbf3",
-      "size": 64337653,
-      "unpacked_size": 211753132,
+      "description": "VieNeu 3.8.3 v3 Turbo CPU ONNX runtime with 25 official preset voices, including Ngọc Huyền. Runs in a dedicated worker; optional Gradio UI is excluded.",
+      "version": "1.8.12",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.12/vieneu-runtime-1.8.12.zip",
+      "sha256": "107efb0a768ca6b895eb1c7f948819f22d070b1efc62a731663563b92546d087",
+      "size": 190651431,
+      "unpacked_size": 190296171,
       "dependencies": []
     },
     {
@@ -164,5 +164,5 @@
       "offline": true
     }
   ],
-  "signature": "kdT0xDTrixwluzTNqxZg9WVlTOsUVYmRVbhQFzNN7aCrxz2EScRspL/zGRt8ma9pvutcjeGhNBX6C1cZ3D0iBQ=="
+  "signature": "w7ouzEbab0XVbRqSXb6eu3Yg40S+dnPcWdyHWsN0bHJipfS/972R4kyqon9mB5zjG2fa9mjj+9cLco8+dIxyAQ=="
 }
