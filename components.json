@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T10:43:09+07:00",
+  "generated_at": "2026-10-01T21:45:00+07:00",
   "components": [
     {
       "id": "whisper-tiny",
@@ -146,7 +146,23 @@
       "size": 64337653,
       "unpacked_size": 211753132,
       "dependencies": []
+    },
+    {
+      "id": "vieneu-model",
+      "name": "VieNeu-TTS Model",
+      "description": "Offline VieNeu v3 Turbo INT8 model and MOSS ONNX audio codec. No Hugging Face download is required while rendering.",
+      "version": "1.8.10",
+      "download_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/components-v1.8.10/vieneu-model-1.8.10.zip",
+      "sha256": "2a1c32854529b66b4a63edb9d1ccf094319fed2468e85c17d312cd02dd3bf301",
+      "size": 298737756,
+      "unpacked_size": 298731824,
+      "dependencies": [
+        "vieneu-runtime"
+      ],
+      "engine": "vieneu",
+      "backend": "cpu",
+      "offline": true
     }
   ],
-  "signature": "UbpUlhBiPU+Ks6bd17cRWulwZ+eOMl5Kc+BqAnz5l6KQZN0sqNGsWWTlVk+ru4IZomX8c2shUJu+BSkaQ7DXBQ=="
+  "signature": "kdT0xDTrixwluzTNqxZg9WVlTOsUVYmRVbhQFzNN7aCrxz2EScRspL/zGRt8ma9pvutcjeGhNBX6C1cZ3D0iBQ=="
 }

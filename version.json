@@ -1,12 +1,12 @@
 {
-  "version": "1.8.10",
+  "version": "1.8.11",
   "release_date": "2026-10-01",
-  "changelog": "Fix OmniVoice runtime installation on customer machines: include missing Python stdlib modules and Transformers dynamic imports, isolate CUDA worker failures, add clean-machine smoke validation, and publish corrected OmniVoice runtime 0.2.1.",
+  "changelog": "Fix VieNeu-TTS stalls and incomplete output: add a separate offline model component, isolated worker with heartbeat/timeout/cancellation, one model load per job, valid audio joining, and pipe-safe UTF-8 worker packaging. Whisper and OmniVoice workers remain isolated.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.10",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.10/AutoDubberStudio_Core_v1.8.10_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.11",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.11/AutoDubberStudio_Core_v1.8.11_Setup.exe",
   "min_compatible": "1.8.3",
-  "sha256": "ef0a7628b0a005609eaaa6603afc21382cca75691846fcaa108c75b2c07bd6f9",
-  "installer_size": 220143216,
-  "signature": "TaZxLUPlmcTZWU5WImGK2Psjb2t+m1XV7Qi5ul8XaQoljZAi2GMxZnz81LmbAkXGKfDAO9OuOrIsj9cvZ491AA=="
+  "sha256": "e83d730a32961b76ae431a61ea4b5deaa63a3dd0d0bcc654760bad768b1eeca5",
+  "installer_size": 233053791,
+  "signature": "bM4OGqHUiRLOPhHA1ZyWEFeCssh3nB9qd97/RDy0SPALLsncqozzJD60ZuS9OOOMXTzLld7Dm+FWF/Bv+UYzDw=="
 }
