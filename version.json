@@ -1,12 +1,12 @@
 {
-  "version": "1.8.8",
-  "release_date": "2026-09-30",
-  "changelog": "Fix OmniVoice runtime smoke test on customer machines; bundle missing Python stdlib filecmp, cProfile and profile; keep Transformers 5.x compatibility and safe CUDA worker fallback.",
+  "version": "1.8.10",
+  "release_date": "2026-10-01",
+  "changelog": "Fix OmniVoice runtime installation on customer machines: include missing Python stdlib modules and Transformers dynamic imports, isolate CUDA worker failures, add clean-machine smoke validation, and publish corrected OmniVoice runtime 0.2.1.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.8",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.8/AutoDubberStudio_Core_v1.8.8_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.10",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.10/AutoDubberStudio_Core_v1.8.10_Setup.exe",
   "min_compatible": "1.8.3",
-  "sha256": "92cfb8a0eaf726cfb3e0662d4ddce5381870b61ae0ed2f021ef2ada1dfa01e5d",
-  "installer_size": 209548119,
-  "signature": "6cQqQFkMs6c3NNRF+x8bvyQtHNBTtLjCPnO5wSxCymOm4U7OWzQrCnarvENxs1mjr5YZC3q8nPFumjtyMMO3Cg=="
+  "sha256": "ef0a7628b0a005609eaaa6603afc21382cca75691846fcaa108c75b2c07bd6f9",
+  "installer_size": 220143216,
+  "signature": "TaZxLUPlmcTZWU5WImGK2Psjb2t+m1XV7Qi5ul8XaQoljZAi2GMxZnz81LmbAkXGKfDAO9OuOrIsj9cvZ491AA=="
 }
