@@ -1,12 +1,12 @@
 {
-  "version": "1.8.12",
-  "release_date": "2026-10-01",
-  "changelog": "Update VieNeu-TTS to 3.8.3 with all 25 official preset voices including Ngọc Huyền, Hải Đăng as the official default, upstream voice aliases, and isolated runtime validation so native ONNX/audio DLL failures cannot terminate the main app.",
+  "version": "1.8.13",
+  "release_date": "2026-10-02",
+  "changelog": "Stability update: prevent duplicate component downloads and WinError 32 partial-file collisions; make VieNeu fall back to the packaged INT8 graph when FP32 is unavailable offline; preserve the existing 1.8.12 components for backward compatibility.",
   "distribution_mode": "verified_auto",
-  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.12",
-  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.12/AutoDubberStudio_Core_v1.8.12_Setup.exe",
+  "release_page_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/tag/v1.8.13",
+  "installer_url": "https://github.com/kiosoo/kiosoo-updates-autodubber/releases/download/v1.8.13/AutoDubberStudio_Core_v1.8.13_Setup.exe",
   "min_compatible": "1.8.3",
-  "sha256": "aea4e44fd827da6875c7a4ccda9625775c4962485b8e67f48cd5c8165d1dfd91",
-  "installer_size": 233052223,
-  "signature": "mQVaEcYgj+lQ8pGAIrx72Z5NmNcVKTGA45MrwndqvrSHcminLq6CwlaK6ly8TqqgH4b9DZQFdJIInxosLWZuAQ=="
+  "sha256": "0a7c3a40e985858883df1586cc8e1776248aed288458e661a02310480f79affc",
+  "installer_size": 233052305,
+  "signature": "PRB5fpnyIc+Ix/JycGJvwCc10qEJhaR+YKBjOTfGJR/87uCsBbv0Fr/iuEZdE7GJA2bWb4KIn0uk11F0A58xAw=="
 }
